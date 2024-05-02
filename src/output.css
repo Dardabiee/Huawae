@@ -1559,13 +1559,13 @@ html {
   scroll-behavior: smooth;
 }
 
-/* .layar{
-    display: flex;
-    position: fixed;
-    width: 100vw;
-    height: 100vh;
-    z-index: 2;
-   } */
+.layar{
+  display: flex;
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  z-index: 2;
+}
 
 .bar{
   width: 10vw;
@@ -1573,7 +1573,7 @@ html {
   background: black;
 }
 
-.counter{
+.count{
   justify-content: flex-end;
   align-items: flex-end;
   z-index: 1000;

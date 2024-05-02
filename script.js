@@ -1,5 +1,5 @@
 function startLoader(){
-    let counterElement = document.querySelector('.counter');
+    let counterElement = document.querySelector('.count');
     let curentValue = 0;
      
     function updateCounter( ){
@@ -20,7 +20,7 @@ function startLoader(){
 }
 startLoader();
 
-gsap.to('.counter',0.25,{
+gsap.to('.count',0.25,{
     delay:3.5,
     opacity:0,
 });
@@ -32,7 +32,7 @@ gsap.to('.bar',1.5,{
      },
      ease:'power4.inOut',
 });
-gsap.to('.counter', 0.25, {
+gsap.to('.count', 0.25, {
     delay: 3.5,
     opacity: 0,
     className: 'animate-bar-out'
@@ -48,7 +48,7 @@ gsap.to('.bar', 1.5, {
     // className: 'animate-bar-out'
 });
 const typed = new Typed('.serve',{
-    strings:['Huawae | Awesome','Service'],
+    strings:['Huawae | Awesome','My Service'],
     typeSpeed:90,
     backSpeed:100,
     backDelay:10,
