@@ -10,13 +10,13 @@
 html {
     scroll-behavior: smooth;
 }
-  .layar{
+  /* .layar{
     display: flex;
     position: fixed;
     width: 100vw;
     height: 100vh;
     z-index: 2;
-   }
+   } */
    .bar{
     width: 10vw;
     height: 105vh;
